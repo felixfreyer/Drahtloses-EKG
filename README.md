@@ -35,7 +35,7 @@ Die Platinengrösse wurde so entworfen, dass die Platine später in das dafür v
 
 Im endgültigen Layout wurden alle freien Flächen durch Massepotentialflächen ersetzt und in zufälligen Abständen wurden Vias zwischen Top und Bottom gesetzt, um Massekopplungen zu verhindern.
 
-###Aufbau
+### Aufbau
 In dieser Version geht die USB-Schnittstelle über den UART-Chip direkt mit 5V an den Mikrocontroller. Da, dieser jedoch nur mit maximal 3,3V betrieben werden darf, wurde ein provisorischer Pegelwandler zwischengeschaltet, der in Schaltung und Layout nicht vorhanden ist.
 
 ![](https://github.com/felixfreyer/Drahtloses-EKG/raw/main/abb4.png)
